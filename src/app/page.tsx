@@ -1,3 +1,4 @@
+import { SignOutButton, SignUpButton } from "@clerk/nextjs";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,6 +11,8 @@ export default function Home() {
         width={500}
         height={500}
       />
+      <SignUpButton />
+      <SignOutButton />
     </main>
   );
 }
